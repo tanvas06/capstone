@@ -1,0 +1,60 @@
+body{
+    /* background-color: #07393c; */
+    /* background-color: #22333b; */
+    /* background-size:100%; */
+background:
+linear-gradient(27deg, #151515 5px, transparent 5px) 0 5px,
+linear-gradient(207deg, #151515 5px, transparent 5px) 10px 0px,
+linear-gradient(27deg, #222 5px, transparent 5px) 0px 10px,
+linear-gradient(207deg, #222 5px, transparent 5px) 10px 5px,
+linear-gradient(90deg, #1b1b1b 10px, transparent 10px),
+linear-gradient(#1d1d1d 25%, #1a1a1a 25%, #1a1a1a 50%, transparent 50%, transparent 75%, #242424 75%, #242424);
+background-color: #131313;
+background-size: 20px 20px;
+}
+header > h1{
+    color: white;
+}
+
+#legends{
+    width: 95vw;
+    height: 200vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    position: absolute;
+    left: 2vw;
+}
+
+.frame{
+    height: 35vh;
+    width: 16vw;
+    border-color: #69140e;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    position: relative;
+}
+
+.counter-minus{
+    height: 3vh;
+    display: flex;
+    position: relative;
+    top: 36vh;
+    right: 14vw;
+}
+
+.counter-plus{
+    height: 3vh;
+    display: flex;
+    position: relative;
+    top: 36vh;
+    right: 10vw;
+}
+
+.counter-display{
+    color: white;
+    display: flex;
+    position: relative;
+    top: 34vh;
+    right: 12vw;
+}

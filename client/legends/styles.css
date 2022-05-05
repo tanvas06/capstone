@@ -1,0 +1,188 @@
+body{
+    background: url(https://wallpapercave.com/wp/wp3955911.png);
+    display: flex;
+
+}
+
+#roster{
+    height: 60vh;
+    width: 35vw;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   align-items: center;
+   position: fixed;
+   left: 10vw;
+   top: 19vh;
+   z-index: 2;
+}
+
+.list{
+    width: 6vw;
+    height: 13vh;
+    cursor: pointer;
+}
+
+#btn1 {
+    background-image: url(https://www.gamespot.com/a/uploads/scale_landscape/1581/15811374/3511218-apex_bloodhoundguide_site.jpg);
+    background-size: cover;
+    background-position: center;
+    /* background-size: contain; */
+}
+#btn2 {
+    background-image: url(https://www.gamespot.com/a/uploads/scale_landscape/1581/15811374/3509575-apex_gibraltarguide_site.jpg);
+    background-size: cover;
+    background-position: center;
+    /* background-size: contain; */
+}
+#btn3 {
+    background-image: url(https://www.gamespot.com/a/uploads/scale_landscape/1581/15811374/3509237-alguides_lifeline_20190228_site.jpg);
+    background-size: cover;
+    background-position: center;
+    /* background-size: contain; */
+}
+#btn4 {
+    background-image: url(https://www.gamespot.com/a/uploads/screen_kubrick/1574/15746725/3509441-apex_pathfinderguide_site.jpg);
+    background-size: cover;
+    background-position: center;
+    /* background-size: contain; */
+}
+#btn5 {
+    background-image: url(https://vcgamers.com/news/wp-content/uploads/2022/03/Wraith-Apex-Mobile.jpg);
+    background-size: cover;
+    background-position: center;
+    /* background-size: contain; */
+}
+#btn6 {
+    background-image: url(https://www.gamespot.com/a/uploads/screen_kubrick/1581/15811374/3509562-apex_bangaloreguide_site.jpg);
+    background-size: cover;
+    background-position: center;
+    /* background-size: contain; */
+}
+#btn7 {
+    background-image: url(https://i.scdn.co/image/ab67706c0000bebb10edf1a41d84b90327e0d746);
+    background-size: cover;
+    background-position: center;
+    /* background-size: contain; */
+}
+#btn8 {
+    background-image: url(https://www.gamespot.com/a/uploads/original/1585/15855271/3669750-3511747-apex_mirageguide_site.jpg);
+    background-size: cover;
+    background-position: center;
+    /* background-size: contain; */
+}
+#btn9 {
+    background-image: url(https://www.gamespot.com/a/uploads/scale_landscape/1581/15811374/3516649-feature_apexguide_octane_site.jpg);
+    background-size: cover;
+    background-position: center;
+    /* background-size: contain; */
+}
+#btn10 {
+    background-image: url(https://media.contentapi.ea.com/content/dam/apex-legends/common/embed-images/apex-embed-season-2-new-legend.png);
+    background-size: cover;
+    background-position: center;
+    /* background-size: contain; */
+}
+#btn11 {
+    background-image: url(https://d.newsweek.com/en/full/1528877/apex-legends-crypto.png?w=1600&h=1600&l=58&t=23&q=88&f=87a3bf9e6b243f697db2266d5f4271a5);
+    background-size: cover;
+    background-position: center;
+    /* background-size: contain; */
+}
+#btn12 {
+    background-image: url(https://media.contentapi.ea.com/content/dam/apex-legends/common/embed-images/apex-embed-season-4-new-legend-v2.png);
+    background-size: cover;
+    background-position: center;
+    /* background-size: contain; */
+}
+#btn13 {
+    background-image: url(https://mp1st.com/wp-content/uploads/2020/05/apex-embed-season-5-new-legend.png);
+    background-size: cover;
+    background-position: center;
+    /* background-size: contain; */
+}
+#btn14 {
+    background-image: url(https://asset.vg247.com/rampart.png/BROK/thumbnail/1200x1200/quality/100/rampart.png);
+    background-size: cover;
+    background-position: center;
+    /* background-size: contain; */
+}
+#btn15 {
+    background-image: url(https://i0.wp.com/www.gamosaurus.com/wp-content/uploads/AAA/Respawn/Apex-Legends/tier-list-legendes/apex-legends-tier-list-legendes-horizon.png?resize=675%2C675&ssl=1);
+    background-size: cover;
+    background-position: center;
+    /* background-size: contain; */
+}
+#btn16 {
+    background-image: url(https://static.tvtropes.org/pmwiki/pub/images/fuse_4.png);
+    background-size: cover;
+    background-position: top;
+    /* background-size: contain; */
+}
+#btn17 {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRK_-5aRvnxRKu2LDWyGI_xdeA15u7cpXeR6jDQaUs9M5cFVwob0YhLQoyRPNq2bPcjgrk&usqp=CAU);
+    background-size: 155%;
+    background-position-x: center;
+    background-position-y: 30%;
+    /* background-size: contain; */
+}
+#btn18 {
+    background-image: url(https://media.contentapi.ea.com/content/dam/apex-legends/images/2021/07/seer-assets/apex-grid-tile-legends-seer.png.adapt.crop16x9.1023w.png);
+    background-size: 155%;
+    background-position-x: center;
+    background-position-y: 30%;
+    /* background-size: contain; */
+}
+#btn19 {
+    background-image: url(https://image.pngaaa.com/288/6489288-middle.png);
+    background-size: 220%;
+    background-position-x: 55%;
+    background-position-y: 35%;
+    /* background-size: contain; */
+}
+#btn20 {
+    background-image: url(https://media.contentapi.ea.com/content/dam/apex-legends/common/legends/mad-maggie/apex-grid-tile-legends-maggie.png.adapt.crop16x9.1023w.png);
+    background-size: 180%;
+    background-position-x: 55%;
+    background-position-y: 30%;
+    /* background-size: contain; */
+}
+
+#gif-list{
+    height: 60vh;
+    width: 35vw;
+    position: relative;
+    left: 20vw;
+    top: 15vh;
+    z-index: 1;
+}
+
+.gifs{
+    height: 40vh;
+    width: 19vw;
+    display: none;
+    position: relative;
+    left: 70vh;
+    top: 10vh;
+}
+
+.card{
+    height: 90vh;
+    width: 45vw;
+    background: gray;
+    background-position: 50%;
+    position: relative;
+    top: 5vh;
+    left: 20vh;
+    overflow-y: scroll;
+    z-index: 3;
+    box-shadow: inset;
+}
+
+.image{
+    height: 50vh;
+    position: relative;
+    left: 10vw;
+    top: 3vh;
+}
+
