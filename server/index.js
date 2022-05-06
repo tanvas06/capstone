@@ -14,17 +14,17 @@ app.get(`/`, (req,res) =>  {
 })
 
 
-app.get('/js', (req, res) => {
-    res.sendFile(path.join(__dirname, '../client/legends/main.js'))
-})
+app.use(express.static(path.join(__dirname, `../client/legends`)))
+app.use(express.static(path.join(__dirname, `../node_modules`)))
+
 
 //   app.get('/js', (req, res) => {
     //     res.sendFile(path.join(__dirname, '../client/legends/tracker.js'))
     //   })
     
-    app.get('/css', (req, res) => {
-        res.sendFile(path.join(__dirname, '../client/legends/styles.css'))
-    })
+    // app.get('/css', (req, res) => {
+    //     res.sendFile(path.join(__dirname, '../client/legends/styles.css'))
+    // })
     
     //   app.get('/css', (req, res) => {
         //     res.sendFile(path.join(__dirname, '../client/legends/tracker.css'))
