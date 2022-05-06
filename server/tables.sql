@@ -22,10 +22,10 @@ INSERT INTO legends
 (name, profile_photo, abilities, lore)
 VALUES 
 ('BLOUDHOUND', '../legendz/Bloodhound.webp', 'EYE OF THE ALLFATHER - Tactical
-Briefly reveal enemies, traps, and clues through all structures in front of you.
+Briefly reveal enemies, traps, and clues through all structures in front of you. E\n
 
 BEAST OF THE HUNT - Ultimate
-Transform into the ultimate hunter. Enhances your senses, allowing you to see cold tracks and highlighted enemies while also increasing movement speed. downing opponents extends its duration.
+Transform into the ultimate hunter. Enhances your senses, allowing you to see cold tracks and highlighted enemies while also increasing movement speed. downing opponents extends its duration. CHAR(10) 
 
 TRACKER - Passive
 Foes leave behind clues for you to find.
@@ -72,17 +72,17 @@ Gibraltar kept in contact with Nik after he was released from prison. In 2727, h
 In 2728, Nik decided to sue for sole custody of Michael. In retaliation, Vanessa told their son the truth about Nik''s past and his involvement with Gibraltar, completely souring the young boy''s opinion of the latter. Nik told Gibraltar this during a clandestine meeting in a park, but Michael found this out.
 Eventually, Gibraltar decided to become a competitor in the Apex Games to protect those who would otherwise not return. Though he was initially hesitant to leave, his father supported him, giving his son his dome shield to help in combat.
 '),
-('LIFELINE', 'https://static.wikia.nocookie.net/apexlegends_gamepedia_en/images/4/4f/Lifeline.jpg/revision/latest/scale-to-width-down/767?cb=20200916154942', 'D.O.C. HEAL DRONE - Tactical
+('LIFELINE', 'https://static.wikia.nocookie.net/apexlegends_gamepedia_en/images/4/4f/Lifeline.jpg/revision/latest/scale-to-width-down/767?cb=20200916154942', 'DOC HEAL DRONE - Tactical
 The Drone Of Compassion (DOC) automatically heals those near it over time.
 
 CARE PACKAGE - Ultimate
-Call in a drop pod full of high quality defensive gear.
+Call in a drop pod full of high quality defensive gear. + CHAR(13) +
 
 COMBAT REVIVE - Passive
-Deploy D.O.C to revive teammates, leaving Lifeline free to defend.
+Deploy DOC to revive teammates, leaving Lifeline free to defend. + CHAR(13) +
 
 EXTRA SUPPLIES - Perk
-Reveal extra items when opening a supply bin
+Reveal extra items when opening a supply bin + CHAR(13) +
 ', 'Background
 Ajay Che was born in 2709 in Olympus, Psamathe to Darion Che, CEO of Chevrex Inc., and Cherisse Che, a powerful Psamathian with ties to the Mercenary Syndicate. Growing up in the floating city of Olympus, she was close friends with Octane, with the two attending the same schools and parties during their early lives. She additionally often baked cookies with her father.
 After the death of Navidad, Octane''s pet rabbit, he knocked on Che''s door early one morning for a makeshift funeral. Che gave a brief improvised eulogy.

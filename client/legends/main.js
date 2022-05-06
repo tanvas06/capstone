@@ -144,14 +144,14 @@ document.getElementById(`btn20`).addEventListener(`mouseout`, ()=>{
 })
 
 function makeLegendCard(char) {
-let split = char[0][`abilities`].split(`.`)
-// console.log(split)
-let ablBiox = document.createElement(`div`)
-for(let i = 0; i < split.length; i++){
-    let ability = document.createElement(`div`)
-    ability.innerHTML = `<span>${split[i]}</span>`
-    ablBiox.appendChild(ability)
-}
+// let split = char[0][`abilities`].split(`.`)
+// // console.log(split)
+// let ablBiox = document.createElement(`div`)
+// for(let i = 0; i < split.length; i++){
+//     let ability = document.createElement(`div`)
+//     ability.innerHTML = `<span>${split[i]}</span>`
+//     ablBiox.appendChild(ability)}
+
     const charElem = 
     `<div class="card" id="char-${char[0]['legend_id']}">
         <img class="image" src="../../legendz/${char[0][`legend_id`]}.webp"
@@ -164,9 +164,9 @@ for(let i = 0; i < split.length; i++){
         <p>${char[0][`lore`]}</p>
         
     </div>`
-    let newStr = document.querySelector(`#abilityBox`)
-    console.log(newStr)
-    newStr.appendChild(ablBiox)
+    // let newStr = document.querySelector(`#abilityBox`)
+    // console.log(newStr)
+    // newStr.appendChild(ablBiox)
 
     return charElem
 }
