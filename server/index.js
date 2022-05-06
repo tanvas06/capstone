@@ -3,6 +3,7 @@ const express = require('express')
 const app = express()
 const cors = require('cors')
 const {SERVER_PORT} = process.env
+const path = require(`path`)
 
 const {getLegendInfo,} = require(`./controller.js`)
 
