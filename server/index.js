@@ -8,6 +8,9 @@ const {getLegendInfo,} = require(`./controller.js`)
 
 app.use(express.json())
 app.use(cors())
+app.get(`/`, (req,res) =>  {
+    res.sendFile(path.join(__dirname, `../client/legends/legends.html`))
+})
 
 app.get(`/legend/:id`, getLegendInfo)
 
