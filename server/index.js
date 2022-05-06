@@ -11,11 +11,13 @@ app.use(express.json())
 app.use(cors())
 app.get(`/`, (req,res) =>  {
     res.sendFile(path.join(__dirname, `../client/legends/legends.html`))
+    res.sendFile(path.join(__dirname, `../client/legends/myLegends.html`))
 })
 
 
 app.use(express.static(path.join(__dirname, `../client/legends`)))
 app.use(express.static(path.join(__dirname, `../node_modules`)))
+app.use(express.static(path.join(__dirname, `../legendz`)))
 
 
 //   app.get('/js', (req, res) => {

@@ -154,8 +154,7 @@ function makeLegendCard(char) {
 
     const charElem = 
     `<div class="card" id="char-${char[0]['legend_id']}">
-        <img class="image" src="../../legendz/${char[0][`legend_id`]}.webp"
-        // <img src=${char[0][`profile_photo`]}>
+        <img class="image" src="./${char[0][`legend_id`]}.webp"
         <h1>${char[0]['name']}</h1>
         <h2 id="abilityBox">Abilities</h2>
         // <h3>${char[0][`abilities`].split('.').join('<br>')}</h3>
