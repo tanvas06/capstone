@@ -157,10 +157,10 @@ function makeLegendCard(char) {
         <img class="image" src="./${char[0][`legend_id`]}.webp"
         <h1>${char[0]['name']}</h1>
         <h2 id="abilityBox">Abilities</h2>
-        // <h3>${char[0][`abilities`].split('.').join('<br>')}</h3>
+        <h3>${char[0][`abilities`].split('.').join('<br>')}</h3>
         <br> 
         <h2>Lore</h2>
-        <p>${char[0][`lore`]}</p>
+        <p id="text">${char[0][`lore`].split("~").join("<br>")}</p>
         
     </div>`
     // let newStr = document.querySelector(`#abilityBox`)
